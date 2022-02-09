@@ -18,13 +18,13 @@ function one() {
     if (yourNumber == null) {
       alert("Игра окончена!");
     } else if (!isNumber(yourNumber)) {
-      alert("это не число!Введите число!");
+      alert("Это не число!Введите число!");
       two();
     } else if (yourNumber > someNumber) {
-      alert("Число больше!");
+      alert("Загаданное число больше!");
       two();
     } else if (yourNumber < someNumber) {
-      alert("Число меньше!");
+      alert("Загаданное число меньше!");
       two();
     } else if (yourNumber == someNumber) {
       alert("Вы выйграли!");
