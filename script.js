@@ -21,10 +21,10 @@ function one() {
       alert("Это не число!Введите число!");
       two();
     } else if (yourNumber > someNumber) {
-      alert("Загаданное число больше!");
+      alert("Загаданное число меньше!");
       two();
     } else if (yourNumber < someNumber) {
-      alert("Загаданное число меньше!");
+      alert("Загаданное число больше!");
       two();
     } else if (yourNumber == someNumber) {
       alert("Вы выйграли!");
